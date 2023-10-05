@@ -73,6 +73,7 @@
     6. Нажать на кнопку "Checkout"
     7. Получить ошибку 500, sсreen1.png
     8. Нажать на вкладку "Network", sсreen2.png
+    9. Нажать "failed"
     9. Нажать на "Headers", sсreen3.png
     10. Нажать на "Response", sсreen4.png
   expected-result: |
