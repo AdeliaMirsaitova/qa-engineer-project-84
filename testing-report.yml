@@ -8,23 +8,19 @@
   status: pass
   
 - summary: |
-    Фильтрация товаров по фильтру "Price"
+    Сортировка товаров по ценовому фильтру "Price"
   status: pass
   
 - summary: |
-    Фильтрация товаров по фильтру "Brand"
+    Сортировка товаров по фильтру "Brand"
   status: pass
 
 - summary: |
-    Фильтрация товаров по фильтру "In Stock", когда фильтр включен
-  status: pass
-  
-- summary: |
-    Фильтрация товаров по фильтру "In Stock", когда фильтр отключен
-  status: pass 
+    Проверка фильтра "In Stock"
+  status: fail
 
 - summary: |
-    Просмотр товаров и подробной информации о товарах 
+    Проверка открытия карточки товара 
   status: pass
 
 - summary: |
@@ -36,9 +32,13 @@
   status: pass
 
 - summary: |
-    Проверка удаления товара из корзины 
+    Проверка удаления товара из корзины кнопкой "Delete"
   status: pass
 
+- summary: |
+    Проверка очищения корзины кнопкой "Clear cart"
+  status: pass
+  
 - summary: |
      Проверка оформления заказа
   status: fail
